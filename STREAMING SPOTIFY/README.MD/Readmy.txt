@@ -1,0 +1,57 @@
+            Overview
+Project ini merupakan latihan Data Analysis menggunakan Python
+dengan dataset Spotify. Analisis berfokus pada hubungan antara beberapa
+variabel streaming, seperti total streams, lead streams, feature
+streams, solo streams, dan collaborative streams.
+Salah satu analisis utama dalam project ini adalah Correlation
+Analysis menggunakan Correlation Heatmap untuk melihat kekuatan
+dan arah hubungan linear antarvariabel numerik.
+
+            Objectives
+Tujuan analisis ini adalah:
+- Memahami hubungan antarvariabel pada data Spotify.
+- Mengidentifikasi variabel yang memiliki korelasi paling kuat dengan
+Total Streams.
+- Membedakan korelasi positif, negatif, dan korelasi yang sangat
+lemah.
+- Memahami perbedaan antara jumlah streams dan persentase streams.
+- Melatih kemampuan membaca dan menginterpretasikan correlation
+heatmap.
+- Menghindari kesalahan interpretasi bahwa korelasi berarti hubungan
+sebab-akibat.
+
+            Variables
+Debut Year                            
+Total Streams (in millions)
+Lead Streams (in millions)
+lead
+Feature Streams (in millions)
+featuring
+Solo Streams (in millions)
+% of Solo Streams
+Collaborative Streams (in millions)
+% of Collaborative Streams
+
+             Tools & Libraries
+-Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Jupyter Notebook
+
+                 Kesimpulan
+Berdasarkan correlation analysis, Total Streams memiliki hubungan
+positif sangat kuat dengan Lead Streams (r = 0.92), serta hubungan
+positif kuat dengan Solo Streams dan Collaborative Streams
+(masing-masing r = 0.77). Feature Streams juga menunjukkan hubungan
+positif sedang hingga kuat dengan Total Streams (r = 0.65).
+Sementara itu, Debut Year, % of Solo Streams, dan
+% of Collaborative Streams menunjukkan hubungan linear yang sangat
+lemah dengan Total Streams. Korelasi -1 antara % of Solo Streams
+dan % of Collaborative Streams perlu diperiksa berdasarkan formula
+pembentukan kedua variabel karena dapat disebabkan oleh hubungan
+matematis antar-persentase.
+
+                    Author
+Project ini dibuat sebagai bagian dari proses belajar Data Analysis
+menggunakan Python, Pandas, Matplotlib, dan Seaborn.
